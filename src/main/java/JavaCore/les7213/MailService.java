@@ -8,7 +8,6 @@ public class MailService<T> implements Consumer<Sendable<T>> {
 
     private Map<String, List<T>> mailBox = new Map<>();
 
-
     public Map<String, List<T>> getMailBox() {
         return mailBox;
     }
